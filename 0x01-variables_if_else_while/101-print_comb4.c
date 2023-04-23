@@ -12,14 +12,14 @@ int main(void)
 	{
 		for (n = 49; m < 58; m++)
 		{
-			for (l ==50; l < 58; m++)
+			for (l = 50; l < 58; l++)
 			{
-				if (l = 50; l < 58; l++)
+				if (l > m && m > n )
 				{
 					putchar(n);
-					putchar(n);
+					putchar(m);
 					putchar(l);
-					if (n != 55 || = != 56
+					if (n != 55 || = != 56)
 					{
 						putchar(',');
 						putchar(' ');
@@ -29,4 +29,6 @@ int main(void)
 			}
 		}
 	}
+	putchar('\n');
+	return (0);
 }
